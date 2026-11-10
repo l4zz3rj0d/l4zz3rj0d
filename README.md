@@ -15,6 +15,8 @@
 
 <p align="center"><img width="100%" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/divider.svg" alt=""/></p>
 
+<img width="32%" align="right" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/bio.svg" alt="L4ZZ3RJ0D"/>
+
 ## Hi there
 
 I'm **L4ZZ3RJ0D** (Sree Danush S), a security researcher from Tamil Nadu, India. I build my own tools for web bug hunting and OSINT, and I like breaking AI/LLM apps. Founder of **Project Hellhound** and co-founder of **TriOps Security**.
