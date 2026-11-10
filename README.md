@@ -28,7 +28,7 @@ I'm **L4ZZ3RJ0D** (Sree Danush S), a security researcher from Tamil Nadu, India.
 - **Founder**: Project Hellhound (open-source security tools)
 - **Co-founder**: TriOps Security
 - **Building**: Autonomous tools for bug hunting and recon
-- **Writing**: CTF and security writeups on [Medium](https://medium.com/@l4zz3rj0d/)
+- **Writing**: CTF and security writeups on Medium, link at the top
 
 </details>
 
@@ -54,7 +54,7 @@ Freelance or full-time work in:
 
 ▸ **AI / LLM pentesting** (including vision-LLM attacks)
 
-Reach me through the [portfolio](https://l4zz3rj0d.github.io).
+[![Contact](https://img.shields.io/badge/CONTACT_ME-PORTFOLIO-cc0000?style=for-the-badge&logo=githubpages&logoColor=white)](https://l4zz3rj0d.github.io)
 
 ---
 
@@ -71,7 +71,7 @@ Reach me through the [portfolio](https://l4zz3rj0d.github.io).
 
 </div>
 
-<p align="center">More tools in the <a href="https://github.com/project-hellhound-org">Project Hellhound org</a>.</p>
+<p align="center"><a href="https://github.com/project-hellhound-org"><img src="https://img.shields.io/badge/ALL_PROJECTS-PROJECT_HELLHOUND-ff3b3b?style=for-the-badge&logo=github&logoColor=white" alt="Project Hellhound org"/></a></p>
 
 ---
 
@@ -111,16 +111,12 @@ Reach me through the [portfolio](https://l4zz3rj0d.github.io).
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=l4zz3rj0d&show_icons=true&hide_border=true&bg_color=00000000&title_color=ff3b3b&icon_color=cc0000&text_color=c9d1d9&ring_color=ff3b3b" alt="GitHub Stats"/>
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=l4zz3rj0d&layout=compact&hide_border=true&bg_color=00000000&title_color=ff3b3b&text_color=c9d1d9" alt="Top Languages"/>
+<img height="190" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/profile-summary-card-output/radical/3-stats.svg" alt="GitHub Stats"/>
+<img height="190" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/profile-summary-card-output/radical/2-most-commit-language.svg" alt="Top Languages"/>
 
 <br/><br/>
 
 <img src="https://streak-stats.demolab.com?user=l4zz3rj0d&theme=tokyonight&hide_border=true&background=0D1117&ring=FF3B3B&fire=CC0000&currStreakLabel=FF3B3B&sideLabels=ff6666&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9&stroke=0D1117&border_radius=10" alt="GitHub Streak"/>
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=l4zz3rj0d&theme=tokyo-night&bg_color=0d1117&color=ff3b3b&line=cc0000&point=ff6666&area=true&hide_border=true" alt="Activity Graph"/>
 
 <br/><br/>
 
