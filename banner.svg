@@ -1,149 +1,172 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" width="1200" height="180">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="220" viewBox="0 0 800 220">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0a0000"/>
-      <stop offset="50%" style="stop-color:#1a0000"/>
-      <stop offset="100%" style="stop-color:#cc0000"/>
-    </linearGradient>
-    <clipPath id="top-slice"><rect x="0" y="0" width="1200" height="63"/></clipPath>
-    <clipPath id="mid-slice"><rect x="0" y="63" width="1200" height="54"/></clipPath>
-    <clipPath id="bot-slice"><rect x="0" y="117" width="1200" height="63"/></clipPath>
+    <!-- Soft light-red ambient background glow (matches portfolio textShadow aura) -->
+    <radialGradient id="redGlow" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#FF3D00" stop-opacity="0.25" />
+      <stop offset="45%" stop-color="#FF1E00" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#0A0404" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Subtle text glow -->
+    <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&amp;family=Share+Tech+Mono&amp;display=swap');
-      .nm { font-family: 'Orbitron', 'Courier New', monospace; font-size: 72px; font-weight: 900; letter-spacing: 10px; text-anchor: middle; dominant-baseline: middle; }
-      .sub { font-family: 'Share Tech Mono', 'Courier New', monospace; font-size: 16px; letter-spacing: 3px; text-anchor: middle; dominant-baseline: middle; fill: #cccccc; }
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700;800;900&amp;display=swap');
 
-      /* === N1 main (white) === */
-      .n1 { fill: #ffffff; animation: n1fade 6s infinite; }
-      /* === N1 glitch red top === */
-      .n1r { fill: #ff3b3b; animation: n1fade 6s infinite, glA 6s infinite; clip-path: url(#top-slice); }
-      /* === N1 glitch cyan bot === */
-      .n1c { fill: #00eeff; animation: n1fade 6s infinite, glB 6s infinite; clip-path: url(#bot-slice); opacity: 0; }
-      /* === N2 main (red) === */
-      .n2 { fill: #ff3b3b; animation: n2fade 6s infinite; opacity: 0; }
-      /* === N2 glitch white mid === */
-      .n2w { fill: #ffffff; animation: n2fade 6s infinite, glC 6s infinite; clip-path: url(#mid-slice); opacity: 0; }
-      /* === N2 glitch cyan top === */
-      .n2c { fill: #00eeff; animation: n2fade 6s infinite, glD 6s infinite; clip-path: url(#top-slice); opacity: 0; }
+      .main-text {
+        font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Courier New', monospace;
+        font-size: 68px;
+        font-weight: 900;
+        letter-spacing: -0.02em;
+        text-anchor: middle;
+        dominant-baseline: central;
+      }
 
-      /* noise bars */
-      .bar1 { animation: noiseBar1 6s infinite; opacity: 0; }
-      .bar2 { animation: noiseBar2 6s infinite; opacity: 0; }
+      .white { fill: #FFFFFF; }
+      .hazard { fill: #FF3D00; }
 
-      @keyframes n1fade {
-        0%,35%  { opacity:1; transform:translate(0,0); }
-        37%     { opacity:1; transform:translate(-4px,0); }
-        38%     { opacity:0.8; transform:translate(6px,1px); }
-        39%     { opacity:0.7; transform:translate(-5px,-1px); }
-        40%     { opacity:0.5; transform:translate(7px,0); }
-        41%     { opacity:0.3; transform:translate(-3px,2px); }
-        43%     { opacity:0.1; transform:translate(4px,-1px); }
-        45%,85% { opacity:0; transform:translate(0,0); }
-        87%     { opacity:0; transform:translate(-5px,0); }
-        88%     { opacity:0.2; transform:translate(6px,1px); }
-        89%     { opacity:0.5; transform:translate(-4px,-1px); }
-        90%     { opacity:0.8; transform:translate(3px,0); }
-        92%     { opacity:0.95; transform:translate(-1px,0); }
-        94%,100%{ opacity:1; transform:translate(0,0); }
+      /* State 1: SREE DANUSH */
+      .state-sree {
+        animation: animSree 6s infinite;
       }
-      @keyframes n2fade {
-        0%,43%  { opacity:0; transform:translate(0,0); }
-        44%     { opacity:0.3; transform:translate(7px,-1px); }
-        45%     { opacity:0.6; transform:translate(-5px,1px); }
-        46%     { opacity:0.8; transform:translate(4px,0); }
-        48%     { opacity:0.9; transform:translate(-2px,1px); }
-        50%,83% { opacity:1; transform:translate(0,0); }
-        85%     { opacity:1; transform:translate(-5px,0); }
-        86%     { opacity:0.7; transform:translate(6px,-1px); }
-        87%     { opacity:0.4; transform:translate(-4px,1px); }
-        88%     { opacity:0.2; transform:translate(3px,0); }
-        90%,100%{ opacity:0; transform:translate(0,0); }
+
+      @keyframes animSree {
+        0%, 42% { opacity: 1; visibility: visible; }
+        43%, 95% { opacity: 0; visibility: hidden; }
+        96%, 100% { opacity: 1; visibility: visible; }
       }
-      @keyframes glA {
-        0%,36%  { opacity:0; transform:translate(0,0); }
-        37%     { opacity:0.9; transform:translate(10px,0); }
-        38%     { opacity:0.7; transform:translate(-8px,0); }
-        39%     { opacity:0.5; transform:translate(12px,0); }
-        40%     { opacity:0.3; transform:translate(-5px,0); }
-        41%,85% { opacity:0; transform:translate(0,0); }
-        87%     { opacity:0.8; transform:translate(-10px,0); }
-        88%     { opacity:0.5; transform:translate(7px,0); }
-        89%     { opacity:0.2; transform:translate(-4px,0); }
-        90%,100%{ opacity:0; transform:translate(0,0); }
+
+      /* State 2: L4ZZ3RJ0D */
+      .state-lazzer {
+        animation: animLazzer 6s infinite;
       }
-      @keyframes glB {
-        0%,37%  { opacity:0; transform:translate(0,0); }
-        38%     { opacity:0.8; transform:translate(-12px,0); }
-        39%     { opacity:0.6; transform:translate(9px,0); }
-        40%     { opacity:0.35; transform:translate(-6px,0); }
-        42%,86% { opacity:0; transform:translate(0,0); }
-        88%     { opacity:0.7; transform:translate(11px,0); }
-        89%     { opacity:0.4; transform:translate(-7px,0); }
-        91%,100%{ opacity:0; transform:translate(0,0); }
+
+      @keyframes animLazzer {
+        0%, 47% { opacity: 0; visibility: hidden; }
+        48%, 91% { opacity: 1; visibility: visible; }
+        92%, 100% { opacity: 0; visibility: hidden; }
       }
-      @keyframes glC {
-        0%,43%  { opacity:0; transform:translate(0,0); }
-        44%     { opacity:0.8; transform:translate(-11px,0); }
-        45%     { opacity:0.6; transform:translate(8px,0); }
-        46%     { opacity:0.3; transform:translate(-5px,0); }
-        48%,83% { opacity:0; transform:translate(0,0); }
-        84%     { opacity:0.9; transform:translate(9px,0); }
-        85%     { opacity:0.5; transform:translate(-7px,0); }
-        87%,100%{ opacity:0; transform:translate(0,0); }
+
+      /* Rapid Scramble Cipher Stages */
+      .scramble-1 {
+        animation: animScramble1 6s infinite;
       }
-      @keyframes glD {
-        0%,44%  { opacity:0; transform:translate(0,0); }
-        45%     { opacity:0.7; transform:translate(12px,0); }
-        46%     { opacity:0.5; transform:translate(-9px,0); }
-        47%     { opacity:0.3; transform:translate(6px,0); }
-        49%,84% { opacity:0; transform:translate(0,0); }
-        85%     { opacity:0.8; transform:translate(-10px,0); }
-        86%     { opacity:0.4; transform:translate(7px,0); }
-        88%,100%{ opacity:0; transform:translate(0,0); }
+      @keyframes animScramble1 {
+        0%, 42% { opacity: 0; }
+        42.5%, 44.5% { opacity: 1; }
+        45%, 100% { opacity: 0; }
       }
-      @keyframes noiseBar1 {
-        0%,36%  { opacity:0; transform:translateY(0); }
-        37%     { opacity:1; transform:translateY(-20px); }
-        38%     { opacity:0.8; transform:translateY(30px); }
-        39%     { opacity:1; transform:translateY(-10px); }
-        40%     { opacity:0.5; transform:translateY(40px); }
-        41%,85% { opacity:0; }
-        86%     { opacity:1; transform:translateY(25px); }
-        87%     { opacity:0.7; transform:translateY(-15px); }
-        88%     { opacity:0.4; transform:translateY(10px); }
-        89%,100%{ opacity:0; }
+
+      .scramble-2 {
+        animation: animScramble2 6s infinite;
       }
-      @keyframes noiseBar2 {
-        0%,37%  { opacity:0; transform:translateY(0); }
-        38%     { opacity:0.9; transform:translateY(35px); }
-        39%     { opacity:0.6; transform:translateY(-25px); }
-        40%     { opacity:0.8; transform:translateY(15px); }
-        42%,86% { opacity:0; }
-        87%     { opacity:0.9; transform:translateY(-30px); }
-        88%     { opacity:0.5; transform:translateY(20px); }
-        90%,100%{ opacity:0; }
+      @keyframes animScramble2 {
+        0%, 44.5% { opacity: 0; }
+        45%, 47.5% { opacity: 1; }
+        48%, 100% { opacity: 0; }
+      }
+
+      .scramble-3 {
+        animation: animScramble3 6s infinite;
+      }
+      @keyframes animScramble3 {
+        0%, 91% { opacity: 0; }
+        91.5%, 93.5% { opacity: 1; }
+        94%, 100% { opacity: 0; }
+      }
+
+      .scramble-4 {
+        animation: animScramble4 6s infinite;
+      }
+      @keyframes animScramble4 {
+        0%, 93.5% { opacity: 0; }
+        94%, 95.5% { opacity: 1; }
+        96%, 100% { opacity: 0; }
+      }
+
+      /* RGB Chromatic Split during Glitch */
+      .rgb-red {
+        fill: #FF0055;
+        opacity: 0.85;
+        animation: animRgbRed 6s infinite;
+      }
+      .rgb-cyan {
+        fill: #00E676;
+        opacity: 0.85;
+        animation: animRgbCyan 6s infinite;
+      }
+
+      @keyframes animRgbRed {
+        0%, 41.5% { opacity: 0; transform: translate(0, 0); }
+        42%, 47.5% { opacity: 0.85; transform: translate(-4px, -1px); }
+        48%, 90.5% { opacity: 0; transform: translate(0, 0); }
+        91%, 95.5% { opacity: 0.85; transform: translate(-5px, 1px); }
+        96%, 100% { opacity: 0; transform: translate(0, 0); }
+      }
+
+      @keyframes animRgbCyan {
+        0%, 41.5% { opacity: 0; transform: translate(0, 0); }
+        42%, 47.5% { opacity: 0.85; transform: translate(4px, 1px); }
+        48%, 90.5% { opacity: 0; transform: translate(0, 0); }
+        91%, 95.5% { opacity: 0.85; transform: translate(5px, -1px); }
+        96%, 100% { opacity: 0; transform: translate(0, 0); }
       }
     </style>
   </defs>
 
-  <!-- background -->
-  <rect width="1200" height="180" fill="url(#bg)"/>
+  <!-- Clean dark background with light-red ambient glow in center (NO BORDERS) -->
+  <rect width="800" height="220" rx="12" fill="#0A0404" />
+  <rect width="800" height="220" rx="12" fill="url(#redGlow)" />
 
-  <!-- subtle red vignette edges -->
-  <rect width="1200" height="180" fill="none" stroke="#cc0000" stroke-width="1" opacity="0.4"/>
+  <!-- RGB Glitch Layer: RED Channel Shift -->
+  <g class="rgb-red">
+    <text class="main-text scramble-1" x="400" y="110">5R33 D4N#$H</text>
+    <text class="main-text scramble-2" x="400" y="110">14ZZ*R J0%</text>
+    <text class="main-text scramble-3" x="400" y="110">L4Z!3R J*D</text>
+    <text class="main-text scramble-4" x="400" y="110">SR*3 D4NU$H</text>
+  </g>
 
-  <!-- name layers — stacked, all centered at y=82 -->
-  <text class="nm n1c" x="600" y="82">L4ZZ3RJ0D</text>
-  <text class="nm n1r" x="600" y="82">L4ZZ3RJ0D</text>
-  <text class="nm n1"  x="600" y="82">L4ZZ3RJ0D</text>
-  <text class="nm n2c" x="600" y="82">SREEDANUSH</text>
-  <text class="nm n2w" x="600" y="82">SREEDANUSH</text>
-  <text class="nm n2"  x="600" y="82">SREEDANUSH</text>
+  <!-- RGB Glitch Layer: CYAN/GREEN Channel Shift -->
+  <g class="rgb-cyan">
+    <text class="main-text scramble-1" x="400" y="110">5R33 D4N#$H</text>
+    <text class="main-text scramble-2" x="400" y="110">14ZZ*R J0%</text>
+    <text class="main-text scramble-3" x="400" y="110">L4Z!3R J*D</text>
+    <text class="main-text scramble-4" x="400" y="110">SR*3 D4NU$H</text>
+  </g>
 
-  <!-- noise bars -->
-  <rect class="bar1" x="0" y="75" width="1200" height="3" fill="#ff3b3b" opacity="0.7"/>
-  <rect class="bar2" x="200" y="95" width="700" height="2" fill="#00eeff" opacity="0.5"/>
+  <!-- Mid-Glitch Character Scramble Decryption States -->
+  <g filter="url(#textGlow)">
+    <text class="main-text scramble-1" x="400" y="110">
+      <tspan class="white">5R</tspan><tspan class="hazard">33 </tspan><tspan class="hazard">D4N#$H</tspan>
+    </text>
+    <text class="main-text scramble-2" x="400" y="110">
+      <tspan class="hazard">14ZZ*</tspan><tspan class="white">R J0%</tspan>
+    </text>
+    <text class="main-text scramble-3" x="400" y="110">
+      <tspan class="hazard">L4Z!</tspan><tspan class="white">3R J*D</tspan>
+    </text>
+    <text class="main-text scramble-4" x="400" y="110">
+      <tspan class="white">SR*3 </tspan><tspan class="hazard">D4NU$H</tspan>
+    </text>
+  </g>
 
-  <!-- subtitle -->
-  <text class="sub" x="600" y="148">Sree Danush S  |  Security Researcher  |  Tool Builder</text>
+  <!-- RESOLVED STATE 1: SREE DANUSH -->
+  <g class="state-sree" filter="url(#textGlow)">
+    <text class="main-text" x="400" y="110">
+      <tspan class="white">SREE </tspan><tspan class="hazard">DANUSH</tspan>
+    </text>
+  </g>
+
+  <!-- RESOLVED STATE 2: L4ZZ3RJ0D -->
+  <g class="state-lazzer" filter="url(#textGlow)">
+    <text class="main-text" x="400" y="110">
+      <tspan class="hazard">L4ZZ3R</tspan><tspan class="white">J0D</tspan>
+    </text>
+  </g>
 </svg>
