@@ -17,7 +17,7 @@
 
 <img width="32%" align="right" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/bio.svg" alt="L4ZZ3RJ0D"/>
 
-## Hi there
+<img height="44" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/h-hi.svg" alt="Hi there"/>
 
 I'm **L4ZZ3RJ0D** (Sree Danush S), a security researcher from Tamil Nadu, India. I build my own tools for web bug hunting and OSINT, and I like breaking AI/LLM apps. Founder of **Project Hellhound** and co-founder of **TriOps Security**.
 
@@ -34,9 +34,11 @@ I'm **L4ZZ3RJ0D** (Sree Danush S), a security researcher from Tamil Nadu, India.
 
 </details>
 
-<br>
+<br clear="right"/>
 
-## Present Status
+<p align="center"><img width="100%" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/divider.svg" alt=""/></p>
+
+<img height="44" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/h-status.svg" alt="Present Status"/>
 
 <img width="30%" align="right" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/scan.svg" alt="Hunting web bugs"/>
 
@@ -50,7 +52,7 @@ I'm **L4ZZ3RJ0D** (Sree Danush S), a security researcher from Tamil Nadu, India.
 
 <p align="center"><img width="100%" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/divider.svg" alt=""/></p>
 
-## Open To
+<img height="44" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/h-open.svg" alt="Open To"/>
 
 <img width="30%" align="right" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/lock.svg" alt="Open to work"/>
 
@@ -68,7 +70,7 @@ Freelance or full-time work in:
 
 <p align="center"><img width="100%" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/divider.svg" alt=""/></p>
 
-## Tools
+<img height="44" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/h-tools.svg" alt="Tools"/>
 
 <div align="center">
 
@@ -81,13 +83,15 @@ Freelance or full-time work in:
 
 </div>
 
+<br/>
+
 <p align="center"><a href="https://github.com/project-hellhound-org"><img src="https://img.shields.io/badge/ALL_PROJECTS-PROJECT_HELLHOUND-ff3b3b?style=for-the-badge&logo=github&logoColor=white" alt="Project Hellhound org"/></a></p>
 
 <br clear="right"/>
 
 <p align="center"><img width="100%" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/divider.svg" alt=""/></p>
 
-## Skills
+<img height="44" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/h-skills.svg" alt="Skills"/>
 
 <div align="center">
 
@@ -106,7 +110,7 @@ Freelance or full-time work in:
 
 <p align="center"><img width="100%" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/divider.svg" alt=""/></p>
 
-## Platforms
+<img height="44" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/h-platforms.svg" alt="Platforms"/>
 
 <div align="center">
 
@@ -123,12 +127,12 @@ Freelance or full-time work in:
 
 <p align="center"><img width="100%" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/divider.svg" alt=""/></p>
 
-## Stats
+<img height="44" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/h-stats.svg" alt="Stats"/>
 
 <div align="center">
 
-<img height="190" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/profile-summary-card-output/radical/0-profile-details.svg" alt="Profile Details"/>
-<img height="190" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/profile-summary-card-output/radical/2-most-commit-language.svg" alt="Top Languages"/>
+<img height="200" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/cards/productive-time.svg" alt="Commit times"/>
+<img height="200" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/cards/top-languages.svg" alt="Top languages"/>
 
 <br/><br/>
 
@@ -148,4 +152,4 @@ Freelance or full-time work in:
   <b><i>"Automate the boring attacks. Perfect the creative ones."</i></b>
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0000,50:8b0000,100:cc0000&height=120&section=footer&reversal=false"/>
+<img width="100%" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/footer.svg" alt=""/>
