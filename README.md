@@ -1,5 +1,5 @@
 <div align="center">
-<img width="100%" src="https://github.com/l4zz3rj0d/l4zz3rj0d/blob/main/banner.svg" alt="L4ZZ3RJ0D — Sree Danush S | Security Researcher | Tool Builder"/>
+<img width="100%" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/banner.svg" alt="L4ZZ3RJ0D — Sree Danush S | Security Researcher | Tool Builder"/>
 </div>
 
 <div align="center">
@@ -111,11 +111,20 @@ Reach me through the [portfolio](https://l4zz3rj0d.github.io).
 
 <div align="center">
 
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=l4zz3rj0d&show_icons=true&hide_border=true&bg_color=00000000&title_color=ff3b3b&icon_color=cc0000&text_color=c9d1d9&ring_color=ff3b3b" alt="GitHub Stats"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=l4zz3rj0d&layout=compact&hide_border=true&bg_color=00000000&title_color=ff3b3b&text_color=c9d1d9" alt="Top Languages"/>
+
+<br/><br/>
+
 <img src="https://streak-stats.demolab.com?user=l4zz3rj0d&theme=tokyonight&hide_border=true&background=0D1117&ring=FF3B3B&fire=CC0000&currStreakLabel=FF3B3B&sideLabels=ff6666&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9&stroke=0D1117&border_radius=10" alt="GitHub Streak"/>
 
 <br/><br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=l4zz3rj0d&theme=tokyo-night&bg_color=0d1117&color=ff3b3b&line=cc0000&point=ff6666&area=true&hide_border=true" alt="Activity Graph"/>
+
+<br/><br/>
+
+<img src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/output/snake.svg" alt="Contribution snake"/>
 
 </div>
 
