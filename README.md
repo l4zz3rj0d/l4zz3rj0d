@@ -11,9 +11,11 @@
 
 </div>
 
----
+<br clear="right"/>
 
-<img width="30%" align="right" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
+<p align="center"><img width="100%" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/divider.svg" alt=""/></p>
+
+<img width="30%" align="right" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/bio.svg" alt="L4ZZ3RJ0D"/>
 
 ## Hi there
 
@@ -36,15 +38,21 @@ I'm **L4ZZ3RJ0D** (Sree Danush S), a security researcher from Tamil Nadu, India.
 
 ## Present Status
 
+<img width="30%" align="right" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/network.svg" alt="Project Hellhound tools"/>
+
 ▸ Hunting web bugs on HackerOne and SignalFisher, sharpening it on PortSwigger Academy and TryHackMe
 
 ▸ Building Bounty Hunter and JARVIS at Project Hellhound, the org I founded
 
 ▸ Writing up what I learn on Medium
 
----
+<br clear="right"/>
+
+<p align="center"><img width="100%" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/divider.svg" alt=""/></p>
 
 ## Open To
+
+<img width="30%" align="right" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/radar.svg" alt="Open to work"/>
 
 Freelance or full-time work in:
 
@@ -56,7 +64,9 @@ Freelance or full-time work in:
 
 [![Contact](https://img.shields.io/badge/CONTACT_ME-PORTFOLIO-cc0000?style=for-the-badge&logo=githubpages&logoColor=white)](https://l4zz3rj0d.github.io)
 
----
+<br clear="right"/>
+
+<p align="center"><img width="100%" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/divider.svg" alt=""/></p>
 
 ## Tools
 
@@ -73,7 +83,9 @@ Freelance or full-time work in:
 
 <p align="center"><a href="https://github.com/project-hellhound-org"><img src="https://img.shields.io/badge/ALL_PROJECTS-PROJECT_HELLHOUND-ff3b3b?style=for-the-badge&logo=github&logoColor=white" alt="Project Hellhound org"/></a></p>
 
----
+<br clear="right"/>
+
+<p align="center"><img width="100%" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/divider.svg" alt=""/></p>
 
 ## Skills
 
@@ -90,7 +102,9 @@ Freelance or full-time work in:
 
 </div>
 
----
+<br clear="right"/>
+
+<p align="center"><img width="100%" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/divider.svg" alt=""/></p>
 
 ## Platforms
 
@@ -105,7 +119,9 @@ Freelance or full-time work in:
 
 </div>
 
----
+<br clear="right"/>
+
+<p align="center"><img width="100%" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/divider.svg" alt=""/></p>
 
 ## Stats
 
@@ -124,7 +140,9 @@ Freelance or full-time work in:
 
 </div>
 
----
+<br clear="right"/>
+
+<p align="center"><img width="100%" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/divider.svg" alt=""/></p>
 
 <p align="center">
   <b><i>"Automate the boring attacks. Perfect the creative ones."</i></b>
