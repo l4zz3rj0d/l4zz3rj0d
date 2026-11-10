@@ -62,12 +62,12 @@ Freelance or full-time work in:
 
 <div align="center">
 
-| Project | What it does |
-|:--------|:-------------|
-| [![Hellhound Spider](https://img.shields.io/badge/HELLHOUND_SPIDER-ff3b3b?style=for-the-badge&logo=github&logoColor=white)](https://github.com/project-hellhound-org/Hellhound-Spider) | Web crawler that maps endpoints, parameters and attack surface on traditional and SPA apps |
-| [![Bounty Hunter](https://img.shields.io/badge/BOUNTY_HUNTER-cc0000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/project-hellhound-org/Hellhound-Pentest) | AI-driven bug bounty framework, recon to report, with strict scope guardrails |
-| [![CMDmap](https://img.shields.io/badge/CMDMAP-990000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/project-hellhound-org/cmdmap) | Command injection detector that escalates from direct output to blind and OOB checks |
-| [![JARVIS](https://img.shields.io/badge/JARVIS-8b0000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/project-hellhound-org/JARVIS) | OSINT and personal assistant: username scans, domain mapping, live flight tracking |
+| Project | What it does | Stars |
+|:--------|:-------------|:------|
+| [![Hellhound Spider](https://img.shields.io/badge/HELLHOUND_SPIDER-ff3b3b?style=for-the-badge&logo=github&logoColor=white)](https://github.com/project-hellhound-org/Hellhound-Spider) | Web crawler that maps endpoints, parameters and attack surface on traditional and SPA apps | ![stars](https://img.shields.io/github/stars/project-hellhound-org/Hellhound-Spider?style=flat-square&label=stars&logo=github&color=ff3b3b&labelColor=161b22) |
+| [![Bounty Hunter](https://img.shields.io/badge/BOUNTY_HUNTER-cc0000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/project-hellhound-org/bounty-hunter) | AI-driven bug bounty framework, recon to report, with strict scope guardrails | ![stars](https://img.shields.io/github/stars/project-hellhound-org/bounty-hunter?style=flat-square&label=stars&logo=github&color=cc0000&labelColor=161b22) |
+| [![CMDmap](https://img.shields.io/badge/CMDMAP-990000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/project-hellhound-org/cmdmap) | Command injection detector that escalates from direct output to blind and OOB checks | ![stars](https://img.shields.io/github/stars/project-hellhound-org/cmdmap?style=flat-square&label=stars&logo=github&color=990000&labelColor=161b22) |
+| [![JARVIS](https://img.shields.io/badge/JARVIS-8b0000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/project-hellhound-org/JARVIS) | OSINT and personal assistant: username scans, domain mapping, live flight tracking | ![stars](https://img.shields.io/github/stars/project-hellhound-org/JARVIS?style=flat-square&label=stars&logo=github&color=8b0000&labelColor=161b22) |
 
 </div>
 
