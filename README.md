@@ -111,7 +111,7 @@ Freelance or full-time work in:
 
 <div align="center">
 
-<img height="190" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/profile-summary-card-output/radical/3-stats.svg" alt="GitHub Stats"/>
+<img height="190" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/profile-summary-card-output/radical/0-profile-details.svg" alt="Profile Details"/>
 <img height="190" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/profile-summary-card-output/radical/2-most-commit-language.svg" alt="Top Languages"/>
 
 <br/><br/>
