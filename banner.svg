@@ -2,16 +2,16 @@
   <defs>
     <!-- Deep Atmospheric Dark Red Background -->
     <radialGradient id="darkRedBg" cx="50%" cy="50%" r="75%">
-      <stop offset="0%" stop-color="#330606" stop-opacity="1" />
-      <stop offset="45%" stop-color="#200303" stop-opacity="1" />
-      <stop offset="100%" stop-color="#0F0202" stop-opacity="1" />
+      <stop offset="0%" stop-color="#2a0508" stop-opacity="1" />
+      <stop offset="45%" stop-color="#140305" stop-opacity="1" />
+      <stop offset="100%" stop-color="#0a0507" stop-opacity="1" />
     </radialGradient>
 
     <!-- Vibrant Crimson Ambient Light Aura -->
     <radialGradient id="crimsonAura" cx="50%" cy="45%" r="55%">
-      <stop offset="0%" stop-color="#FF1A1A" stop-opacity="0.32" />
+      <stop offset="0%" stop-color="#ff3b3b" stop-opacity="0.32" />
       <stop offset="40%" stop-color="#CC0000" stop-opacity="0.16" />
-      <stop offset="100%" stop-color="#0F0202" stop-opacity="0" />
+      <stop offset="100%" stop-color="#0a0507" stop-opacity="0" />
     </radialGradient>
 
     <!-- Soft Bloom Filter for Luminous Headline -->
@@ -43,12 +43,12 @@
         letter-spacing: 0.22em;
         text-anchor: middle;
         dominant-baseline: central;
-        fill: #D1D5DB;
+        fill: #dcc7c7;
       }
 
       .white { fill: #FFFFFF; }
-      .hazard { fill: #FF3D00; }
-      .sep { fill: #FF2A2A; font-weight: 900; }
+      .hazard { fill: #ff3b3b; }
+      .sep { fill: #cc0000; font-weight: 900; }
 
       /* =========================================================
          ULTRA-SMOOTH CINEMATIC MORPH TIMELINE (7s Total Loop)
@@ -153,11 +153,11 @@
          ANALOG RGB CHROMATIC ABERRATION JITTER
          ========================================================= */
       .rgb-red {
-        fill: #FF0044;
+        fill: #cc0000;
         animation: jitterRed 7s cubic-bezier(0.25, 1, 0.5, 1) infinite;
       }
       .rgb-cyan {
-        fill: #00FF99;
+        fill: #ff9a9a;
         animation: jitterCyan 7s cubic-bezier(0.25, 1, 0.5, 1) infinite;
       }
 
