@@ -91,18 +91,18 @@ Freelance or full-time work in:
 
 <p align="center"><img width="100%" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/divider.svg" alt=""/></p>
 
-<img height="44" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/h-arsenal.svg" alt="Arsenal"/>
+<img height="44" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/h-skills.svg" alt="Skills"/>
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/PYTHON-ff3b3b?style=flat-square&logo=python&logoColor=white)
-![Kali Linux](https://img.shields.io/badge/KALI_LINUX-cc0000?style=flat-square&logo=kalilinux&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/BURP_SUITE-ff3b3b?style=flat-square&logo=burpsuite&logoColor=white)
-![Nmap](https://img.shields.io/badge/NMAP-990000?style=flat-square&logo=nmap&logoColor=white)
-![SQLMap](https://img.shields.io/badge/SQLMAP-cc0000?style=flat-square&logo=databricks&logoColor=white)
-![Metasploit](https://img.shields.io/badge/METASPLOIT-ff3b3b?style=flat-square&logo=metasploit&logoColor=white)
-![Wireshark](https://img.shields.io/badge/WIRESHARK-990000?style=flat-square&logo=wireshark&logoColor=white)
-![Ghidra](https://img.shields.io/badge/GHIDRA-cc0000?style=flat-square&logoColor=white)
+![Web App Pentesting](https://img.shields.io/badge/WEB_APP_PENTESTING-ff3b3b?style=for-the-badge&labelColor=ff3b3b)
+![API Security Testing](https://img.shields.io/badge/API_SECURITY_TESTING-cc0000?style=for-the-badge&labelColor=cc0000)
+![AI / LLM Pentesting](https://img.shields.io/badge/AI_%2F_LLM_PENTESTING-ff3b3b?style=for-the-badge&labelColor=ff3b3b)
+![OSINT](https://img.shields.io/badge/OSINT-cc0000?style=for-the-badge&labelColor=cc0000)
+![Bug Bounty Hunting](https://img.shields.io/badge/BUG_BOUNTY_HUNTING-cc0000?style=for-the-badge&labelColor=cc0000)
+![Recon Automation](https://img.shields.io/badge/RECON_AUTOMATION-ff3b3b?style=for-the-badge&labelColor=ff3b3b)
+![Autonomous Pentest Agents](https://img.shields.io/badge/AUTONOMOUS_PENTEST_AGENTS-cc0000?style=for-the-badge&labelColor=cc0000)
+![Security Tool Development](https://img.shields.io/badge/SECURITY_TOOL_DEVELOPMENT-ff3b3b?style=for-the-badge&labelColor=ff3b3b)
 
 </div>
 
