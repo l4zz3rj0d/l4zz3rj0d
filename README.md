@@ -70,7 +70,7 @@ Freelance or full-time work in:
 
 <p align="center"><img width="100%" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/divider.svg" alt=""/></p>
 
-<img height="44" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/h-tools.svg" alt="Tools"/>
+<img height="44" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/h-projects.svg" alt="Projects"/>
 
 <div align="center">
 
@@ -91,18 +91,18 @@ Freelance or full-time work in:
 
 <p align="center"><img width="100%" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/divider.svg" alt=""/></p>
 
-<img height="44" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/h-skills.svg" alt="Skills"/>
+<img height="44" src="https://raw.githubusercontent.com/l4zz3rj0d/l4zz3rj0d/main/assets/h-arsenal.svg" alt="Arsenal"/>
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/PYTHON-FF3B3B?style=flat-square&logo=python&logoColor=white)
-![Kali Linux](https://img.shields.io/badge/KALI_LINUX-CC0000?style=flat-square&logo=kalilinux&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/BURP_SUITE-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
-![Nmap](https://img.shields.io/badge/NMAP-CC0000?style=flat-square&logo=nmap&logoColor=white)
-![SQLMap](https://img.shields.io/badge/SQLMAP-8B0000?style=flat-square&logo=databricks&logoColor=white)
-![Metasploit](https://img.shields.io/badge/METASPLOIT-2596CD?style=flat-square&logo=metasploit&logoColor=white)
-![Wireshark](https://img.shields.io/badge/WIRESHARK-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-![Ghidra](https://img.shields.io/badge/GHIDRA-990000?style=flat-square&logoColor=white)
+![Python](https://img.shields.io/badge/PYTHON-ff3b3b?style=flat-square&logo=python&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/KALI_LINUX-cc0000?style=flat-square&logo=kalilinux&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/BURP_SUITE-ff3b3b?style=flat-square&logo=burpsuite&logoColor=white)
+![Nmap](https://img.shields.io/badge/NMAP-990000?style=flat-square&logo=nmap&logoColor=white)
+![SQLMap](https://img.shields.io/badge/SQLMAP-cc0000?style=flat-square&logo=databricks&logoColor=white)
+![Metasploit](https://img.shields.io/badge/METASPLOIT-ff3b3b?style=flat-square&logo=metasploit&logoColor=white)
+![Wireshark](https://img.shields.io/badge/WIRESHARK-990000?style=flat-square&logo=wireshark&logoColor=white)
+![Ghidra](https://img.shields.io/badge/GHIDRA-cc0000?style=flat-square&logoColor=white)
 
 </div>
 
@@ -114,12 +114,12 @@ Freelance or full-time work in:
 
 <div align="center">
 
-[![TryHackMe](https://img.shields.io/badge/TRYHACKME-Top_1%25-212C42?style=for-the-badge&logo=tryhackme&logoColor=red)](https://tryhackme.com/p/L4ZZ3RJ0D)
+[![TryHackMe](https://img.shields.io/badge/TRYHACKME-Top_1%25-cc0000?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/L4ZZ3RJ0D)
 [![HackingHub](https://img.shields.io/badge/HACKINGHUB-Top_100-8B0000?style=for-the-badge&logo=target&logoColor=white)](https://hackinghub.io)
-[![PortSwigger](https://img.shields.io/badge/PORTSWIGGER_ACADEMY-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)](https://portswigger.net/web-security)
-[![HackerOne](https://img.shields.io/badge/HACKERONE-494649?style=for-the-badge&logo=hackerone&logoColor=white)](https://hackerone.com)
-[![SignalFisher](https://img.shields.io/badge/SIGNALFISHER-0B1F3A?style=for-the-badge&logoColor=white)](https://www.signalfisher.com)
-[![SyncLab](https://img.shields.io/badge/SYNCLAB-1a1a2e?style=for-the-badge&logo=flask&logoColor=ff3b3b)](https://synclab.io)
+[![PortSwigger](https://img.shields.io/badge/PORTSWIGGER_ACADEMY-ff3b3b?style=for-the-badge&logo=burpsuite&logoColor=white)](https://portswigger.net/web-security)
+[![HackerOne](https://img.shields.io/badge/HACKERONE-cc0000?style=for-the-badge&logo=hackerone&logoColor=white)](https://hackerone.com)
+[![SignalFisher](https://img.shields.io/badge/SIGNALFISHER-8b0000?style=for-the-badge&logoColor=white)](https://www.signalfisher.com)
+[![SyncLab](https://img.shields.io/badge/SYNCLAB-ff3b3b?style=for-the-badge&logo=flask&logoColor=white)](https://synclab.io)
 
 </div>
 
